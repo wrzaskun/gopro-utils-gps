@@ -1,6 +1,15 @@
 # gopro-utils-gps
 This software get out GPS data from hevc (h265)
 
+GPS output formats:
+- gpx
+- kml
+- json
+- csv
+
+Gyro, Accel, Temperature - output format:
+- csv
+
 # Dependencies 
 ## Binary static version recommended
 download https://ffmpeg.zeranoe.com/builds/
