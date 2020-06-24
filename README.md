@@ -1,6 +1,24 @@
 # gopro-utils-gps
 This software get out GPS data from hevc (h265)
 
+# Dependencies 
+## Binary static version recommended
+download https://ffmpeg.zeranoe.com/builds/
+- copy this files to Bin Directory
+ffmpeg.exe
+ffplay.exe
+ffprobe.exe
+
+## Build own exe files by go language
+- Build go files in Bin to got exe
+All procedure is here
+https://medium.com/@lucaselbert/extracting-gopro-gps-and-other-telemetry-data-fadf97ed1834
+or 
+https://community.gopro.com/t5/GoPro-Telemetry-GPS-overlays/Extracting-the-metadata-in-a-useful-format/gpm-p/40293
+
+# Gopro Quik not working with windows 10 - fix it (Intel should works 100%, AMD not exactly)
+https://gatetoadventures.com/how-to-fix-playback-issues-with-hevc-files-from-a-gopro-hero7-or-hero6-black-on-pc/
+
 # GoPro Metadata Format Parser + GPMD2CSV
 
 **I have recently switched my efforts to a more comprehensive [JavaScript version of these tools](https://github.com/JuanIrache/gopro-telemetry), but feel free to send a PR if you think you can improve this one**
